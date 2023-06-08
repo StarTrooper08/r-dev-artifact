@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/cpp:dev-ubuntu-20.04
+FROM atharvas08/r-dev-image.slim:latest
 
 ARG REINSTALL_CMAKE_VERSION_FROM_SOURCE="none"
 
