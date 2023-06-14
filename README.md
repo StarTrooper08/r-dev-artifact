@@ -9,5 +9,5 @@ and has the dependencies required to compile R installed following the instructi
 You can pull the image from this repository by running
 
 ```bash
-docker pull ghcr.io/jamestripp/r-dev-image:main
+docker pull ghcr.io/startrooper08/r-dev-artifact:main
 ```
