@@ -12,7 +12,7 @@ RUN if [ "${REINSTALL_CMAKE_VERSION_FROM_SOURCE}" != "none" ]; then \
 
 RUN sed -i.bak "/^#.*deb-src.*universe$/s/^# //g" /etc/apt/sources.list \
     && apt update \
-    && apt-get install subversion \
+    && apt install subversion \
     && apt -y build-dep r-base-dev \
     && apt -y install r-base-dev \
     && Rscript -e "install.packages('languageserver', repos='https://cran.rstudio.com')"
