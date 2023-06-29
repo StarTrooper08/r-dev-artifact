@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/cpp:dev-ubuntu-22.04
+FROM ubuntu:latest
 
 ARG REINSTALL_CMAKE_VERSION_FROM_SOURCE="none"
 
